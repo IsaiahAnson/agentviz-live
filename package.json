@@ -1,0 +1,14 @@
+{
+  "name": "agentviz-live",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drives the agentviz wallpaper from your live Claude Code sessions.",
+  "type": "module",
+  "scripts": {
+    "start": "node relay.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
